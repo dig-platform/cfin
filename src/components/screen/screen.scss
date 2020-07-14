@@ -1,0 +1,27 @@
+@import "../../scss/theme";
+.screen{
+  padding: 2.5rem 0;
+}
+
+.screen-content{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.primary{
+  background: $primary;
+}
+
+.column{
+    .screen-content{
+      display: flex;
+      flex-direction: column;
+    }
+}
+
+.row{
+  .screen-content{
+    display: flex;
+    flex-direction: row;
+  }
+}

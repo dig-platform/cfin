@@ -1,0 +1,11 @@
+@import "../../scss/theme";
+@import "../../scss/device";
+#features{
+  background: $primary;
+  padding: 2.5rem;
+}
+
+.feature-wrapper{
+  flex: 1;
+  margin: .5rem;
+}

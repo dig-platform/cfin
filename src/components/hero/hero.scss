@@ -1,0 +1,29 @@
+@import "../../scss/device";
+@import "../../scss/theme";
+.hero{
+  height: 80vh;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  h1{
+    margin: 0 0 1rem 0;
+    @include device(mobile) {
+      font-size: 8rem;
+    }
+  }
+
+  p{
+    margin: 0 0 1rem 0;
+  }
+
+  .cta{
+    display: inline-block;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    background: #fff;
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,10 @@
+$shift: 15%;
+$background: #212121;
+$backgroundDark: darken($background, $shift);
+$backgroundLight: lighten($background, $shift);
+$primary: #42A5F5;
+$primaryDark: darken($primary, $shift);
+$primaryLight: lighten($primary, $shift);
+$accent: #EC407A;
+$accentDark: darken($accent, $shift);
+$accentLight: lighten($accent, $shift);

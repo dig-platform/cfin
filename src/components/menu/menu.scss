@@ -1,0 +1,27 @@
+@import "../../scss/theme";
+
+nav{
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  padding: 1rem;
+  background: $backgroundDark;
+  transition: all .5s;
+  a{
+    display: block;
+    text-decoration: none;
+    margin: .5rem 0;
+    color: #fff;
+  }
+}
+
+.minimized{
+  nav{
+    left: -400px;
+  }
+}
+
+.menu-items{
+  padding: 1rem 0;
+}
